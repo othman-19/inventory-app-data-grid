@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import DataGrid from './components/DataGrid';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Inventory with Data-Grid
-      </header>
+      Inventory with Data-Grid
+      <DataGrid />
     </div>
   );
 }
